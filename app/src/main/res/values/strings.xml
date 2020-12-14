@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SignInAndSignUp</string>
+    <string name="sign_in">sign in</string>
+    <string name="sign_up">sign in</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="e_mail">E-Mail</string>
+</resources>
