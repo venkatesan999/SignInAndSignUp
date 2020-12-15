@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText email;
     EditText password;
-    Button sign_in;
+    Button sign_up;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
         email = findViewById(R.id.email_id);
         password = findViewById(R.id.password);
-        sign_in = findViewById(R.id.sign_in);
+        sign_up = findViewById(R.id.signup_Button);
 
-        sign_in.setOnClickListener(new View.OnClickListener() {
+        sign_up.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

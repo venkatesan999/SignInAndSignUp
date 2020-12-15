@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    tools:context=".UpdateActivity"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:gravity="center">
 
     <EditText
-        android:id="@+id/email_id"
+        android:id="@+id/update_email_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="15dp"
         android:background="@drawable/background_design"
         android:gravity="center"
         android:hint="@string/e_mail"
@@ -20,48 +21,22 @@
         android:autofillHints="" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/update_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
+        android:layout_margin="15dp"
         android:background="@drawable/background_design"
         android:gravity="center"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:padding="15dp"
         android:autofillHints="" />
-
-    <EditText
-        android:id="@+id/confirm_password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="@drawable/background_design"
-        android:gravity="center"
-        android:hint="@string/confirm_password"
-        android:inputType="textPassword"
-        android:padding="15dp"
-        android:autofillHints="" />
-
-
     <Button
-        android:id="@+id/signup_Button"
+        android:id="@+id/update_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/sign_up"
-        style="?attr/materialButtonOutlinedStyle"
-        />
-
-    <Button
-        android:id="@+id/signin_Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/sign_in"
+        android:text="@string/update"
         style="?attr/materialButtonOutlinedStyle"
         />
 
 </LinearLayout>
-
-
-
-

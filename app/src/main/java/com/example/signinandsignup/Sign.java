@@ -34,7 +34,10 @@ public class Sign extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-getStringText();
+                     getStringText();
+
+                Intent intent = new Intent(Sign.this, UpdateActivity.class);
+                startActivity(intent);
 
 //                if(pass != null && pass.getEmail() != null ){
 //
@@ -58,8 +61,6 @@ getStringText();
         {
             instance.beginTransaction();
         }
-
-        GetAndSet model = new GetAndSet();
 
         GetAndSet getAndSet=instance.where(GetAndSet.class)
                 .equalTo("email",sign_email_id.getText().toString())
